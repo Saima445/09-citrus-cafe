@@ -3,40 +3,49 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 2.2rem;
   font-family: Arial, Helvetica, sans-serif;
   background-color: #83c05b;
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
   background-color: #cbcbcb;
   margin-block-end: 1rem;
   padding: 1rem;
+}
+p {
+  font-size: 2rem;
 }
 section {
   background-color: white;
   padding: 1rem;
   margin: 0 0 1rem 0;
 }
+nav {
+  margin-block-end: 1rem;
+}
+
 nav ul li {
-  list-style: none;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
+  max-width: 100%;
 }
 
 nav ul li a {
+  flex-grow: 1;
+  flex-basis: 100%;
   text-decoration: none;
   background-color: #9dcd7c;
   color: white;
   text-align: center;
   font-size: 1.6rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
-  border: 1px solid darkgreen;
+  border: 1px solid #6da14c;
   border-collapse: collapse;
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-  padding: 1rem;
-  border-radius: 1rem;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  border-radius: 0.7rem;
 }
 figure {
   display: block;
@@ -58,7 +67,7 @@ footer {
   display: none;
 }
 .newscolumn ul li {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .newscolumn ul li a {
   text-decoration: none;
@@ -75,18 +84,11 @@ footer {
 #container {
   display: flex;
   flex-direction: column;
-  flex-basis: 100%;
 }
 #logo {
   max-width: 100%;
 }
 
-/* #maincontent {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  flex-basis: 100%;
-} */
 #vision section {
   background-color: #83c05b;
 }
@@ -101,21 +103,20 @@ footer {
 /* Tablet-näkymän säännöt */
 @media only screen and (min-width: 426px) {
   nav ul {
-    list-style: none;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0 0 0;
   }
   nav ul li {
     flex-grow: 1;
-    flex-basis: 20%;
+    flex-basis: 100%;
+  }
+  nav ul li a {
+    padding: 2rem 1rem 2rem 1rem;
   }
   #logo {
     float: left;
-  }
-  #boxes section {
-    padding: 1rem 0rem 1rem 1rem;
   }
 
   #vision {
@@ -126,7 +127,7 @@ footer {
   }
   #vision section {
     background-color: #e2dabc;
-    padding: 1rem;
+    padding: 1rem 2rem 1rem 1rem;
     margin: 1rem 0 1rem 1rem;
     background-image: url(./images/wallpaper.jpg);
     display: flex;
@@ -153,11 +154,13 @@ footer {
     order: 1;
     flex-grow: 1;
     flex-basis: 0;
+    padding: 1rem 0.5rem 1rem 1rem;
   }
   #events {
     order: 2;
     flex-grow: 1;
     flex-basis: 0;
+    padding: 1rem 1rem 1rem 0.5rem;
   }
   #news {
     order: 3;
@@ -168,9 +171,19 @@ footer {
 
 /* Desktop-näkymän säännöt */
 @media only screen and (min-width: 769px) {
+  body {
+    margin: 1.5rem;
+  }
+  #specials {
+    padding: 1rem 0.5rem 1rem 1rem;
+  }
+  #events {
+    padding: 1rem 0.5rem 1rem 0.5rem;
+  }
   #news {
     order: 3;
     flex-grow: 1;
     flex-basis: 0;
+    padding: 1rem 1rem 1rem 0.5rem;
   }
 }
