@@ -5,6 +5,7 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #83c05b;
+  font-size: 1.6rem;
 }
 
 h3 {
@@ -13,8 +14,12 @@ h3 {
   margin-block-end: 1rem;
   padding: 1rem;
 }
-p {
-  font-size: 2rem;
+h3 a {
+  text-decoration: none;
+  color: black;
+}
+#vision p {
+  font-size: 2.4rem;
 }
 section {
   background-color: white;
@@ -39,7 +44,6 @@ nav ul li a {
   background-color: #9dcd7c;
   color: white;
   text-align: center;
-  font-size: 1.6rem;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
   border: 1px solid #6da14c;
   border-collapse: collapse;
@@ -60,15 +64,12 @@ i {
 
 footer {
   color: white;
-  font-size: 1.6rem;
   padding: 0.5rem;
 }
 .hidden {
   display: none;
 }
-.newscolumn ul li {
-  font-size: 2rem;
-}
+
 .newscolumn ul li a {
   text-decoration: none;
   display: flex;
