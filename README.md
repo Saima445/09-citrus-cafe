@@ -1,12 +1,12 @@
-# Citrus Cafe - Responsiivinen Sivuprojekti
+# Citrus Cafe - Responsiivinen sivuprojekti
 
-Tämä projekti on osa responsiivisen suunnittelun harjoittelua, jossa käytettiin **HTML5** ja **CSS3** luomaan Citrus Cafe -sivusto. Sivustolla on erilaisia asetteluratkaisuja, jotka skaalautuvat sujuvasti eri laitteille (mobiili, tabletti ja desktop). Sivun tavoitteena on simuloida yksinkertaista ravintolasivustoa, joka esittelee päivän erikoiset, tapahtumat ja uutiset.
+Tämä koulutyö on osa responsiivisen suunnittelun harjoittelua, jossa käytettiin **HTML5** ja **CSS3** luomaan Citrus Cafe -sivusto. Sivustolla on erilaisia asetteluratkaisuja, jotka skaalautuvat sujuvasti eri laitteille (mobiili, tabletti ja desktop). Sivun tavoitteena on simuloida yksinkertaista ravintolasivustoa, joka esittelee päivän erikoiset, tapahtumat ja uutiset.
 
-## Näet livenä:
+## Livenä:
 
 [Citrus Cafe Live Demo](https://saima445.github.io/09-citrus-cafe/)
 
-## Projektin Yleiskuvaus
+## Yleiskuvaus
 
 Sivusto on suunniteltu seuraavien oppien mukaisesti:
 
