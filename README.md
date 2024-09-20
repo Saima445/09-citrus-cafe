@@ -4,7 +4,7 @@ Tämä koulutyö on osa responsiivisen suunnittelun harjoittelua, jossa käytett
 
 ## Livenä:
 
-[Citrus Cafe Live Demo](https://saima445.github.io/09-citrus-cafe/)
+[Citrus Cafe demo](https://saima445.github.io/09-citrus-cafe/)
 
 ## Yleiskuvaus
 
