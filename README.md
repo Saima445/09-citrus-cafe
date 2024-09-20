@@ -1,4 +1,4 @@
-# Citrus Cafe - Responsiivinen sivuprojekti
+# Citrus Cafe - responsiivinen koulutyö
 
 Tämä koulutyö on osa responsiivisen suunnittelun harjoittelua, jossa käytettiin **HTML5** ja **CSS3** luomaan Citrus Cafe -sivusto. Sivustolla on erilaisia asetteluratkaisuja, jotka skaalautuvat sujuvasti eri laitteille (mobiili, tabletti ja desktop). Sivun tavoitteena on simuloida yksinkertaista ravintolasivustoa, joka esittelee päivän erikoiset, tapahtumat ja uutiset.
 
