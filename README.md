@@ -1,28 +1,28 @@
-# Citrus Cafe - responsiivinen koulutyö
+# Citrus Cafe - responsive school project
 
-Tämä koulutyö on osa responsiivisen suunnittelun harjoittelua, jossa käytettiin **HTML5** ja **CSS3** luomaan Citrus Cafe -sivusto. Sivustolla on erilaisia asetteluratkaisuja, jotka skaalautuvat sujuvasti eri laitteille (mobiili, tabletti ja desktop). Sivun tavoitteena on simuloida yksinkertaista ravintolasivustoa, joka esittelee päivän erikoiset, tapahtumat ja uutiset.
+This school project is part of a responsive design practice, utilizing **HTML5** and **CSS3** to create the Citrus Cafe website. The site features various layout solutions that seamlessly adapt to different devices (mobile, tablet, and desktop). The aim is to simulate a simple restaurant website showcasing daily specials, events, and news.
 
-## Livenä:
+## Live Demo:
 
 [Citrus Cafe demo](https://saima445.github.io/09-citrus-cafe/)
 
-## Yleiskuvaus
+## Overview
 
-Sivusto on suunniteltu seuraavien oppien mukaisesti:
+The website is designed based on the following principles:
 
-- **Responsiivisuus**: Sivusto skaalautuu saumattomasti eri laitteille käyttäen "mobile-first" -lähestymistapaa.
-- **Navigaatio**: Yksinkertainen ja selkeä navigointipalkki, joka muuttuu mobiiliystävälliseksi pienemmillä näytöillä.
-- **Flexbox-asettelut**: Sivun rakenne ja asettelu on toteutettu joustavasti CSS Flexboxilla.
-- **Media Queries**: Media queryjen avulla sivu mukautuu tablet- ja desktop-näkymiin.
+- **Responsiveness**: The site scales seamlessly across devices using a "mobile-first" approach.
+- **Navigation**: A simple and clear navigation bar that adapts to a mobile-friendly design on smaller screens.
+- **Flexbox Layouts**: The structure and layout of the page is flexibly built using CSS Flexbox.
+- **Media Queries**: Media queries enable the site to adapt to tablet and desktop views.
 
-## Ominaisuudet
+## Features
 
-- **Etusivu**: Sisältää vision ravintolasta ja kuvan.
-- **Päivän erikoiset ja tapahtumat**: Erikoistarjoukset ja tapahtumat näkyvät erillisissä laatikoissa.
-- **Uutiset**: Lista ajankohtaisista tapahtumista ravintolassa.
-- **Yhteystiedot**: Footerissa näkyvät yhteystiedot ja sosiaalisen median ikonit.
+- **Homepage**: Includes a vision of the restaurant and an image.
+- **Daily Specials and Events**: Special offers and events are displayed in separate sections.
+- **News**: A list of current events at the restaurant.
+- **Contact Information**: Footer includes contact details and social media icons.
 
-## Esimerkkisivun kuvat
+## Example Page Screenshots
 
 ![Desktop](./images/citrus-desktop.png)
 
